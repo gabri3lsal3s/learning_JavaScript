@@ -16,7 +16,6 @@
             justify-content: space-around;
             padding: 16px;
         }
-    /* Código CSS*/
     </style>
 </head>
 
@@ -33,16 +32,14 @@
         </div>
         <p></p>
     </div>
-    <!-- Código HTML --> 
 </body>
 
 <script>
-    let windows_prompt = function (){
-        alert('Esse é um alerta dentro de uma função!')
-        confirm('Tudo certo?')
-        prompt('Qual o teu nome?')
-    }
-    windows_prompt ()
-// Código JavaScript
+    let n1 = Number(window.prompt('Digite um número')) // o prompt retorna uma string .parseInt converte para inteiro
+    let n2 = Number(window.prompt('Digite outro número')) // Number.parseFloat converte para um número Float. Number ele converte para um número int ou float
+    let s = n1 + n2
+    window.alert('A soma é ' + s) // concatenação
+    // number + number adição
+    // number + string concatenação
 </script>
 </html>
