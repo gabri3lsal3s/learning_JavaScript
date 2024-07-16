@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 0 auto;
+        }
+        header {
+            background-color: rgb(130, 155, 238);
+            color: white;
+            display: flex;
+            padding: 16px;
+            justify-content: space-around;
+        }
+        section {
+            margin-top: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div></div>
+            <div>
+                <h1>
+                    Ola mundo!
+                </h1>
+                <p>
+                    Esse é o primeiro exemplo!
+                </p>
+                <p>
+                    Esse é o <strong>segundo</strong> exemplo!
+                </p>
+            </div>
+            <div></div>
+        </header>
+        <section>
+            <script>
+                var p1 = document.getElementsByTagName('p')[0]
+                p1.style.color = 'pink';
+                
+                var p2 = document.getElementsByTagName('p')[1]
+                document.write(p2.innerHTML)
+            </script>
+        </section>
+    </div>
+</body>
+
+</html>
